@@ -15,7 +15,7 @@ let FoodItems = ({ items }) => {
         <Items 
         key={item} 
         foodItem={item} 
-        bought={activeItems.includes(items)} 
+        bought={activeItems.includes(item)} 
         BuyButtonHandler={(event) => onBuyButton(item, event)}>
         </Items>))}
     </ul>
