@@ -1,5 +1,13 @@
 .item-list {
-    background-color: #589;
-    font-family: bolder;
-    color: blue
+    /* background-color: khaki; */
+}
+
+.kg-span{
+    font-weight: 500;
+    color: blue;
+}
+
+.button{
+    float: right;
+    border-radius: 5px;
 }
